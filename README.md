@@ -27,32 +27,34 @@ vn-it-jobs-ai/
 ├── .gitignore
 ├── LICENSE
 └── README.md
+```
 
-🗺️ Project Roadmap
-[x] Phase 1: Exploratory Data Analysis (Kaggle Vietnam Jobs Dataset)
+---
 
-[ ] Phase 2: Data Cleaning & Schema Normalization
+## 🗺️ Project Roadmap
 
-[ ] Phase 3: Web Scraper Implementation (Collecting missing descriptions & recent posts)
+- [x] **Phase 1: Exploratory Data Analysis** (Kaggle Vietnam Jobs Dataset)
+- [ ] **Phase 2: Data Cleaning & Schema Normalization**
+- [ ] **Phase 3: Web Scraper Implementation** (Collecting missing descriptions & recent posts)
+- [ ] **Phase 4: Database Ingestion** (PostgreSQL / DuckDB setup)
+- [ ] **Phase 5: Text-to-SQL Pipeline Development**
+- [ ] **Phase 6: RAG Engine & Vector Store Integration**
+- [ ] **Phase 7: Evaluation & User Interface**
 
-[ ] Phase 4: Database Ingestion (PostgreSQL / DuckDB setup)
+---
 
-[ ] Phase 5: Text-to-SQL Pipeline Development
+## ⚙️ Setup & Installation
 
-[ ] Phase 6: RAG Engine & Vector Store Integration
+### 1. Prerequisites
+* Python 3.10+
+* Git
 
-[ ] Phase 7: Evaluation & User Interface
+### 2. Quickstart
 
-⚙️ Setup & Installation
-1. Prerequisites
-Python 3.10+
-
-Git
-
-2. Quickstart
 Clone the repository and set up a virtual environment:
 
-git clone [https://github.com/duyditrongmua/vn-it-jobs-ai.git](https://github.com/duyditrongmua/vn-it-jobs-ai.git)
+```bash
+git clone https://github.com/duyditrongmua/vn-it-jobs-ai.git
 cd vn-it-jobs-ai
 
 # Create virtual environment
@@ -66,11 +68,17 @@ source venv/bin/activate
 
 # Install dependencies
 pip install -r requirements.txt
+```
 
-📊 Dataset Notice
-The raw jobs.csv file contains raw job market data and is not committed to GitHub (excluded via .gitignore).
+---
 
-To reproduce the notebooks, place your source CSV files inside the data/raw/ directory or run the sample scripts under data/sample/.
+## 📊 Dataset Notice
 
-📜 License
-Distributed under the MIT License. See LICENSE for more information.
+* The raw `jobs.csv` file contains raw job market data and is **not committed to GitHub** (excluded via `.gitignore`).
+* To reproduce the notebooks, place your source CSV files inside the `data/raw/` directory or run the sample scripts under `data/sample/`.
+
+---
+
+## 📜 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
